@@ -7,6 +7,7 @@ class Example extends React.Component {
       example: ""
     };
     this.updateExample = this.updateExample.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
   updateExample(e) {
@@ -24,6 +25,7 @@ class Example extends React.Component {
         <h3>Example</h3>
         <p>Type in the box and updates the store with entered data</p>
         <textarea value={ this.state.example } onChange={ this.updateExample }></textarea>
+        <br/>
         <button onClick={ this.handleClick }>Submit</button>
         <br/>
         <p>currently example is: { this.props.example }</p>
