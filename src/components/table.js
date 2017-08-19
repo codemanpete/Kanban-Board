@@ -67,7 +67,9 @@ class Table extends React.Component {
             <Card text={card} />
           </tr>
         )}
-        { this.renderNewCardField() }
+        <tr>
+          { this.renderNewCardField() }
+        </tr>
       </table>
     );
   }

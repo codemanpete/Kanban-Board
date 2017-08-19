@@ -3,18 +3,23 @@ table {
   justify-content: space-around;
   display: block;
   margin-left: 25px;
-  border: 1px solid black;
 }
 
 tr {
-  width: inherit;
+  width: 100%;
+  display: block;
+  border: 1px solid gray;
+  margin-top: 5px;
 }
 
 th {
-  width: inherit;
+  display: block;
+  width: 100%;
 }
 
-
+.card {
+  width: inherit;
+}
 
 .last {
   margin-right: 25px;
@@ -22,4 +27,8 @@ th {
 
 .header {
   height: 30px;
+}
+
+input {
+  width: 100%;
 }
