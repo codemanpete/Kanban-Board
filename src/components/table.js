@@ -49,8 +49,7 @@ class Table extends React.Component {
     );
     return(
       <div>
-        <button onClick={ this.handleToggle }>Add a card</button>
-        <br />
+        <p onClick={ this.handleToggle }>Add a card</p>
         { this.state.showField ? newCardField : "" }
       </div>
     );
