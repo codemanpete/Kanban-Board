@@ -1,0 +1,25 @@
+table {
+  width: 25%;
+  justify-content: space-around;
+  display: block;
+  margin-left: 25px;
+  border: 1px solid black;
+}
+
+tr {
+  width: inherit;
+}
+
+th {
+  width: inherit;
+}
+
+
+
+.last {
+  margin-right: 25px;
+}
+
+.header {
+  height: 30px;
+}

@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import Table from './table_container';
+
 import './App.css';
-import ExampleContainer from './example_container';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Route component={ ExampleContainer }/>
+        <Table title="Winnie" id="1" color="#8E6E95" />
+        <Table title="Bob" id="2" color="#39A59C" />
+        <Table title="Thomas" id="3" color="#344759" />
+        <Table title="George" id="4" color="#E8741E" />
       </div>
     );
   }

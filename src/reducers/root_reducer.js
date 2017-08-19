@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux';
 
 //import reducers to combine
-import ExampleReducer from './example_reducer';
+import TablesReducer from './tables_reducer';
 
 const rootReducer = combineReducers({
   // reducers go here
-  example: ExampleReducer
+  tables: TablesReducer
 });
 
 export default rootReducer;
